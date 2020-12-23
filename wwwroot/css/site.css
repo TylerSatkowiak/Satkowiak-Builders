@@ -1,0 +1,77 @@
+﻿
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item {
+    width: 100%;
+}
+
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -moz-fixed;
+}
+label {
+    font-family: -moz-fixed;
+}
+
+nav {
+    background: #DBDBDA;
+    height: 75px;
+    width: 100%;
+}
+
+label.logo {
+    line-height: 80px;
+    padding: 0 100px;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover {
+    background: white;
+    transition: .5s;
+}
+
